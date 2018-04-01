@@ -1,7 +1,12 @@
 class CouponsController < ApplicationController
   def index
+<<<<<<< HEAD
     @coupons = Coupon.all
     # render "index"
+=======
+    @coupon = Coupon.all
+    render "index"
+>>>>>>> 2e203962df3274a4df7d34104e0606d3d78e6883
   end
 
   def show
